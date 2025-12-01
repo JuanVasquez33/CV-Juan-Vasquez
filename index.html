@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Juan Pablo Vásquez</title>
     <style>
+        :root {
+            /* Opción 1 - Azul Oscuro Profesional */
+            /*    --color-primary: #092266;
+                --color-primary-light: #002b86;*/
+            
+            /* Opción 2 - Verde Oscuro Corporativo */
+            --color-primary: #003b2b;
+            --color-primary-light: #059669; 
+            
+            /* Opción 3 - Gris Azulado Minimalista */
+            /* --color-primary: #334155;
+            --color-primary-light: #475569; */
+        }
+        
         * {
             margin: 0;
             padding: 0;
@@ -27,7 +41,7 @@
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
             color: white;
             padding: 40px;
             text-align: center;
@@ -74,11 +88,11 @@
         }
         
         .section-title {
-            color: #667eea;
+            color: var(--color-primary);
             font-size: 1.5em;
             margin-bottom: 15px;
             padding-bottom: 8px;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid var(--color-primary);
             font-weight: 600;
         }
         
@@ -93,7 +107,7 @@
         }
         
         .company {
-            color: #667eea;
+            color: var(--color-primary-light);
             font-weight: 500;
             margin-bottom: 5px;
         }
@@ -117,7 +131,7 @@
         }
         
         .skill-category h4 {
-            color: #764ba2;
+            color: var(--color-primary-light);
             margin-bottom: 10px;
             font-size: 1.05em;
         }
@@ -171,7 +185,9 @@
             <div class="title">Tecnólogo en Desarrollo de Software | Estudiante de Ingeniería de Sistemas</div>
             <div class="contact-info">
                 <a href="mailto:Jpvt2003.03@gmail.com">Jpvt2003.03@gmail.com</a>
-                <span>|</span>
+                <span>|</span> 
+                <span>+57 3014391779</span>
+                <span>|</span> 
                 <a href="https://www.linkedin.com/in/juan-pablo-vasquez-492786369" target="_blank">LinkedIn</a>
             </div>
         </div>
@@ -195,15 +211,15 @@
                     <div class="company">San Vicente CES</div>
                     <div class="date">5 meses - Actualidad</div>
                     <p class="description">
-                        Análisis y soporte de sistemas de información, gestión de infraestructura tecnológica, y desarrollo de 
-                        soluciones para optimización de procesos administrativos en el sector educativo y de salud.
+                        Análisis, diseño de sistemas de información y desarrollo de aplicaciones web utilizando tecnologías solidas y modernas, y desarrollo de RPAs brindando soluciones para 
+                        la optimización y automatización de procesos administrativos.
                     </p>
                 </div>
                 
                 <div class="experience-item">
                     <div class="job-title">Desarrollador Junior</div>
                     <div class="company">Divergente SAS</div>
-                    <div class="date">4 meses</div>
+                    <div class="date">5 meses</div>
                     <p class="description">
                         Desarrollo de aplicaciones web utilizando tecnologías modernas, participación en proyectos de desarrollo 
                         full-stack, implementación de funcionalidades frontend y backend, y colaboración en equipo bajo metodologías ágiles.
@@ -235,6 +251,26 @@
                 </div>
             </div>
             
+            
+            <div class="section">
+                <h2 class="section-title">Referencias</h2>
+                
+                <div class="education-item">
+                    <div class="job-title">Juan David Perez Cano - Líder TI</div>
+                    <div class="date">Contacto: +57 3218178171</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-title">Jose Daniel Alvarado - Arquitecto de Software</div>
+                    <div class="date">Contacto: +57 3165459708</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="job-title">Nestor Mauricio Marin - Líder de Innovación Tecnologica</div>
+                    <div class="date">Contacto: +57 3005578395</div>
+                </div>
+            </div>
+            
             <div class="section">
                 <h2 class="section-title">Habilidades Técnicas</h2>
                 
@@ -253,7 +289,7 @@
                             <span class="skill-tag">SQL Server</span>
                             <span class="skill-tag">MySQL</span>
                             <span class="skill-tag">PostgreSQL</span>
-                            <span class="skill-tag">Phpmyadmin</span>
+                            <span class="skill-tag">PhpMyAdmin</span>
                         </div>
                     </div>
 
